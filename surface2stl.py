@@ -46,6 +46,7 @@ Z = U * np.sin(V/2)
 
 # Quelques fonctions utiles
 # Some useful functions
+
 def allCoordinatesPositives(X, Y, Z):
     """En théorie, un fichier slt ne doit pas contenir de nombre négatifs (ceci n'est plus une règle absolue)"""
     """In theory, a slt file should not contain negative numbers (this is no longer an absolute rule)"""
@@ -91,9 +92,8 @@ def stringForFacet(facet):
     Voir https://en.wikipedia.org/wiki/STL_(file_format)"""
     """Gives the stl string for a facet facet
     See https://en.wikipedia.org/wiki/STL_(file_format)"""
-
+    
     try:
-
         string = ""
         normal = normal_for_facet(facet)
         string += f'facet normal {format_e(normal[0])} {format_e(normal[1])} {format_e(normal[2])}\n'
