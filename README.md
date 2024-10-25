@@ -1,4 +1,4 @@
-# Version Française
+## Version Française
 ## Objet
 - Créer un fichier stl à partir de l'équation paramétrique d'une surface
 - Enregistrer le fichier stl en local
@@ -8,7 +8,7 @@
 - Renseigner les constantes et les équations de la surface à créer
 - Lancer le programme
 
-# English Version
+## English Version
 ## Object
 - Create an stl file from the parametric equation of a surface
 - Save stl file locally
