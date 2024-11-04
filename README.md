@@ -1,10 +1,10 @@
 [Version Française](#principe)
 ## Principle
-These scripts allow you to create an `stl` file for a surface whose parametric equation is known.
+These scripts allow you to create an `stl` file for a surface whose parametric equation is known.  
 The `facet` library includes the `Facet()` class and various methods which will, from a set of X, Y and Z coordinates, allow the creation of the `stl` file. The `stlFromXYZ.py` script
-creates the `stl` file and saves it locally.
-Using `stlFromXYZ.py` requires importing `facet`; It is also worth checking that `facet` will be accessible, if necessary by modifying the `PYTHONPATH`.
-The `stl` file thus created is written in text mode. Depending on the number of facets created, it may be more or less important. It may then be beneficial to convert it to binary, for example with MeshLab.
+creates the `stl` file and saves it locally.  
+Using `stlFromXYZ.py` requires importing `facet`; It is also worth checking that `facet` will be accessible, if necessary by modifying the `PYTHONPATH`.  
+The `stl` file thus created is written in text mode. Depending on the number of facets created, it may be more or less important. It may then be beneficial to convert it to binary, for example with MeshLab.  
 `surface2stl.py` is a script which allows the creation of the `stl` file of a surface without using the `facet` module.
 ## Usage
 In the `stlFromXYZ.py` file:
@@ -25,11 +25,11 @@ Various sample scripts and `slt` files are available in the `Examples` folder
 
 
 ## Principe
-Ces scripts permettent de créer un fichier `stl` pour une surface dont on connaît l'équation paramétrique.
+Ces scripts permettent de créer un fichier `stl` pour une surface dont on connaît l'équation paramétrique.  
 La librairie `facet` comprend la classe `Facet()` et diverses méthodes qui vont, à partir d'un jeu de coordonnées X, Y et Z permettre de créer le fichier `stl`. Le script `stlFromXYZ.py`
-crée le fichier `stl` et l'enregistre en local.
-L'utilisation de `stlFromXYZ.py`, nécessite l'import de `facet` ; aussi convient-il de vérifier que `facet`sera accessible, au besoin en modifiant le `PYTHONPATH`.
-Le fichier `stl` ainsi créé est écrit en mode texte. En fonction du nombre de facettes créées, il peut être plus ou moins volumineux. Il peut alors y avoir intérêt à le convertir en binaire, par exemple avec MeshLab.
+crée le fichier `stl` et l'enregistre en local.  
+L'utilisation de `stlFromXYZ.py`, nécessite l'import de `facet` ; aussi convient-il de vérifier que `facet`sera accessible, au besoin en modifiant le `PYTHONPATH`.  
+Le fichier `stl` ainsi créé est écrit en mode texte. En fonction du nombre de facettes créées, il peut être plus ou moins volumineux. Il peut alors y avoir intérêt à le convertir en binaire, par exemple avec MeshLab.  
 `surface2stl.py` est un script qui permet la création du fichier `stl` d'une surface sans utiliser le module `facet`.
 ## Usage
 Dans le fichier `stlFromXYZ.py` :
