@@ -24,10 +24,6 @@ U, V = np.meshgrid(u, v)
 
 a = 3
 
-# X = (a + b*np.cos(V))*np.cos(U) 
-# Y = (a + b*np.cos(V))*np.sin(U)
-# Z = b*np.sin(V)*np.cos(U/2)
-
 X = a * np.sin(U) * np.cos(U) * np.cos(V)
 Y = a * np.sin(U) * np.cos(U) * np.sin(V)
 Z = 2*((2)**(1/2))*a * np.sin(U)
