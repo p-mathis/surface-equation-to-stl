@@ -18,7 +18,7 @@ In the `stlFromXYZ.py` file:
 - Run the script.
 
 ## Examples
-Various sample scripts and `slt` files are available in the `Examples` folder
+Various sample scripts are available in the `Examples` folder
 
 <br><br>
 [English Version](#principle)
@@ -42,7 +42,7 @@ Dans le fichier `stlFromXYZ.py` :
 - En fonction du choix (avec ou sans `offset`) commenter ou décommenter les lignes `stl = fa.stlOffsetSurface(X, Y, Z, offset, surface_name)` et `stl = fa.stlSingleSurface(X, Y, Z, surface_name)`
 - Lancer le script.
 ## Exemples
-Divers exemples de script et de fichiers `slt`sont disponibles dans le dossier `Examples`
+Divers exemples de scripts sont disponibles dans le dossier `Examples`
 <br><br>
 
 
